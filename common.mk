@@ -361,7 +361,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.motokona
+    android.hardware.lights-service.lineage
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
