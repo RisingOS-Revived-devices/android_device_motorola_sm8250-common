@@ -318,6 +318,7 @@ media.stagefright.audio.deep=false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.dualmic.config=endfire \
+    persist.vendor.audio.fluence.voicecomm=true \
     ro.config.vc_call_vol_steps=8
 # }}}
 
