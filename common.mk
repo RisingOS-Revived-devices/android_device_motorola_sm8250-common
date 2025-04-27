@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 # Setup dalvik vm configs
-$(call inherit-product, frameworks/native/build/phone-xhdpi-8192-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 TARGET_SUPPORTS_OMX_SERVICE := false
 BOARD_SHIPPING_API_LEVEL := 30
@@ -584,7 +584,7 @@ PRODUCT_PACKAGES_DEBUG += \
     update_engine_client
 
 # Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)	   
+$(call inherit-product, hardware/motorola/ViPER4AndroidFX/setup.mk)	   
 # VNDK
 PRODUCT_ENFORCE_ARTIFACT_PATH_REQUIREMENTS := strict
 
